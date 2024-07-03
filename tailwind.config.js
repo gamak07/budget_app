@@ -24,26 +24,11 @@ export default {
       accentButton: '#2ECC71',
 
       // Forms:
-      // Input fields: #F7F7F7 with a #3498DB border
       inputColor: '#F7F7F7',
-      // Labels: #666666 (dark gray)
-      labelsColor: '#666666',
 
-      // Navigation:
-      // Menu items: #3498DB with white text
-      menuColor: '#3498DB',
-      // Active menu item: #2ECC71 with white text
-      activeMenuColor: '#2ECC71',
+      deepRed: '#E74C3C',
 
-      // Alerts and Notifications:
-      // Success: #2ECC71 with white text
-      successColor: '#2ECC71',
-      // Error: #E74C3C (a deep, bold red) with white text
-      errorColor: '#E74C3C',
-
-      // Icons:
-      iconColor: '#666666'
-      // Icon color: #666666 (dark gray) or #3498DB (blue)
+      darkGray: '#666666'
       
     },
     

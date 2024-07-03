@@ -13,7 +13,7 @@ const Header = () => {
       </div>
       <Navbar />
       <div>
-        <CgProfile className='text-[25px] text-iconColor pointer profileIcon hover:text-secondaryColor'/>
+        <CgProfile className='text-[25px] text-darkGray pointer profileIcon hover:text-secondaryColor'/>
       </div>
     </div>
   )

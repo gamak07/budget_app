@@ -12,12 +12,13 @@ const NavbarRouter = () => {
   return (
     <div>
       <Routes>
-        <Route path={'/'} element={<Home/>} />
-        <Route path={'/dashboard'} element={<Dashboard/>} />
-        <Route path={'/budget'} element={<Budget/>} />
-        <Route path={'/expenses'} element={<Expenses/>} />
-        <Route path={'/income'} element={<Income/>} />
-        <Route path={'/settings'} element={<Settings/>} />
+        <Route path='/' element={<Home/>} />
+        <Route path='/dashboard' element={<Dashboard/>} />
+        <Route path='/budget/*' element={<Budget/>} />
+        <Route path='/expenses' element={<Expenses/>} />
+        <Route path='/income' element={<Income/>} />
+        <Route path='/settings' element={<Settings/>} />
+        {/* <Route path='*' element={<Home/>} /> */}
       </Routes>
     </div>
   )
